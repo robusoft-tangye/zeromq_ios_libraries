@@ -10,12 +10,12 @@ SODIUM_DOWNLOAD=sodium.tar.gz
 SODIUM_FILES=libsodium
 
 # from https://github.com/zeromq/libzmq/releases/tag/
-ZMQ_VERSION=v4.3.3/zeromq-4.3.3.tar.gz
+ZMQ_VERSION=v4.3.4/zeromq-4.3.4.tar.gz
 ZMQ_DOWNLOAD=zmq.tar.gz
 ZMQ_FILES=zmq
 
 # from https://github.com/zeromq/czmq/releases/tag
-CZMQ_VERSION=v4.2.0/czmq-4.2.0.tar.gz
+CZMQ_VERSION=v4.2.1/czmq-4.2.1.tar.gz
 CZMQ_DOWNLOAD=czmq.tar.gz
 CZMQ_FILES=czmq
 

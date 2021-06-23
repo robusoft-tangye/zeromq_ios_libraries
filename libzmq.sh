@@ -45,10 +45,10 @@ SIM_SDK=$(xcodebuild -showsdks \
 
 IOS_VERSION_MIN=8.0
 OTHER_LDFLAGS=""
-OTHER_CFLAGS="-Os -Qunused-arguments"
+OTHER_CFLAGS="-Os -Qunused-arguments -DENABLE_DRAFTS"
 # Enable Bitcode
-OTHER_CPPFLAGS="-Os -I${LIBSODIUM_DIST}/include -fembed-bitcode"
-OTHER_CXXFLAGS="-Os"
+OTHER_CPPFLAGS="-Os -I${LIBSODIUM_DIST}/include -fembed-bitcode -DENABLE_DRAFTS"
+OTHER_CXXFLAGS="-Os -DENABLE_DRAFTS"
 
 # Download and extract ZeroMQ
 #rm -rf $LIBDIR
